@@ -1,13 +1,16 @@
 import React from "react";
-import logo from "../../assets/Images/logo.jpg";
+import logo from "../../assets/Images/logo1.jpg";
 import "../Navbar/Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="bodypage">
       <header className="Shopify-header">
         <ul>
-          <img src={logo} className="Shopify-logo" alt="logo" />=
+        <div>
+
+        </div>
+          <img src={logo} className="Shopify-logo" alt="logo" />
           <li className="dropdown">
             <a href="#" className="dropbtn">
               Sell
